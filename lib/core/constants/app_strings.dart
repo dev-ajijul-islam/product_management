@@ -23,4 +23,16 @@ class AppStrings {
   ];
 
 
+  static const Map<String, String> signIn = {
+    "welcome_title" : "Welcome Back!",
+    "sub_title" : "Please login first to start your Theory Test.",
+    "sign_in_button" : "Sign In",
+    "email" : "Email Address",
+    "email_hint" : "pristia@gmail.com",
+    "password" : "Password",
+    "password_hint" : "Enter Password",
+    "forgot_password" : "Forgot Password?",
+    "remember_me" : "Remember Me",
+  };
+
 }

@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:product_manager/modules/auth/presentation/screen/sign_in_screen.dart';
+import 'package:product_manager/modules/auth/presentation/screen/sign_up_screen.dart';
 import 'package:product_manager/modules/onboarding/binding/onboarding_binding.dart';
 import 'package:product_manager/modules/onboarding/presetation/screen/onboarding_screen.dart';
 import 'package:product_manager/modules/splash/binding/splash_binding.dart';
@@ -17,6 +19,7 @@ class AppPages {
       page: () => OnboardingScreen(),
       binding: OnboardingBinding(),
     ),
-
+    GetPage(name: AppRoutes.signInScreen, page: () => SignInScreen()),
+    GetPage(name: AppRoutes.signUpScreen, page: () => SignUpScreen()),
   ];
 }
