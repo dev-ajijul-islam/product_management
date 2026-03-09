@@ -22,7 +22,7 @@ class SplashScreen extends GetView {
           crossAxisAlignment: .center,
           children: [
             Spacer(),
-            Image.asset(width: 150.w, height: 150.h, AssetPaths.SplashLogo),
+            Image.asset(width: 150.w, height: 150.h, AssetPaths.splashLogo),
             Text(
               AppStrings.splash["splash_title"].toString(),
               style: TextTheme.of(context).titleLarge,
